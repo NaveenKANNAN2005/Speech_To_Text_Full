@@ -1,0 +1,33 @@
+# Core dependencies
+faster-whisper>=0.5.0
+pyaudio>=0.2.11
+torch>=2.0.0
+numpy>=1.21.0
+librosa>=0.10.0
+soundfile>=0.12.1
+scipy>=1.7.0
+
+# Web framework dependencies
+fastapi>=0.68.0
+uvicorn>=0.15.0
+flask>=2.0.0
+websockets>=10.0
+
+# ML/Translation dependencies
+transformers>=4.21.0
+sentencepiece>=0.1.97
+protobuf>=3.20.0
+
+# Audio processing
+wave>=0.0.2
+sounddevice>=0.4.5
+
+# Utilities
+colorama>=0.4.4
+tqdm>=4.65.0
+python-multipart>=0.0.5
+typing-extensions>=4.0.0
+pkg_resources>=0.0.0
+
+# Optional but recommended
+cuda-python>=11.8.0  # For GPU support
